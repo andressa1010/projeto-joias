@@ -4,6 +4,7 @@ import JoiasDescricao from "../Components/joiasDescricao";
 import { ContainerJoias, MensagemDestaque } from "../Styles/styled";
 import { useCarrinho } from "../Context/CarrinhoContext";
 import { useNavigate } from "react-router-dom";
+import DepoimentosPage from "./DepoimentosPage";
 
 const joiasDisponivel = [
   {
@@ -49,7 +50,7 @@ const joiasDisponivel = [
   {
     id: 6,
     nome: "Brinco",
-    imagem: "/brincoCoracaoPerolas.png",
+    imagem: "/brincoDiamanteVinho.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
     preco: 799.99,
     descricao: "",
@@ -59,7 +60,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoOuroEstrelas.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -67,7 +68,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoPrata.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -75,7 +76,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoEstrelaRosa.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -83,7 +84,31 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoEstrelaAzul.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
+    descricao: "",
+  },
+   {
+    id: 16,
+    nome: "Brinco",
+    imagem: "/brincoCoracaoPreto.png",
+    avaliacoes: "/estrelinhas-avaliacao.png",
+    preco: 299.99,
+    descricao: "",
+  },
+   {
+    id: 17,
+    nome: "Brinco",
+    imagem: "/brincoCoracaoPerolas.png",
+    avaliacoes: "/estrelinhas-avaliacao.png",
+    preco: 499.99,
+    descricao: "",
+  },
+   {
+    id: 18,
+    nome: "Brinco",
+    imagem: "/brincoDeOuroCorcacao.png",
+    avaliacoes: "/estrelinhas-avaliacao.png",
+    preco: 299.99,
     descricao: "",
   },
   {
@@ -171,6 +196,8 @@ const Home = () => {
       >
         🛍 Carrinho ({carrinho.length})
       </button>
+
+      <DepoimentosPage/>
     </>
   );
 };
