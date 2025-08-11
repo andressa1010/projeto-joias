@@ -77,7 +77,7 @@ const Carrinho = () => {
       )}
 
       <Total>Total: R$ {valorTotal.toFixed(2)}</Total>
-      <Botao onClick={()=> nevegar("/")}> Voltar</Botao>
+     
 
       <BotaoDiv>
              <BotaoWhats onClick={finalizarCompra}>
@@ -85,6 +85,7 @@ const Carrinho = () => {
   Finalizar Compra no WhatsApp
 </BotaoWhats>
       </BotaoDiv>
+       <Botao onClick={()=> nevegar("/")}> Voltar</Botao>
 
     
 
