@@ -12,7 +12,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoAzul.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -20,7 +20,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoPedrasVerdes.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -28,7 +28,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoComDiamante.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -36,7 +36,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoVermelho.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -44,7 +44,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoOuroCoracaoRosa.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -52,7 +52,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoDiamanteVinho.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 799.99,
+    preco: 399.99,
     descricao: "",
   },
   {
@@ -68,7 +68,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoCoracaoPrata.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 399.99,
+    preco: 499.99,
     descricao: "",
   },
   {
@@ -76,7 +76,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoEstrelaRosa.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 399.99,
+    preco: 299.99,
     descricao: "",
   },
   {
@@ -84,7 +84,7 @@ const joiasDisponivel = [
     nome: "Brinco",
     imagem: "/brincoEstrelaAzul.png",
     avaliacoes: "/estrelinhas-avaliacao.png",
-    preco: 399.99,
+    preco: 299.99,
     descricao: "",
   },
    {
